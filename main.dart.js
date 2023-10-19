@@ -4,7 +4,7 @@ b[q]=a[q]}}function mixinPropertiesHard(a,b){var s=Object.keys(a)
 for(var r=0;r<s.length;r++){var q=s[r]
 if(!b.hasOwnProperty(q))b[q]=a[q]}}function mixinPropertiesEasy(a,b){Object.assign(b,a)}var z=function(){var s=function(){}
 s.prototype={p:{}}
-var r=new s()
+var r=new s()    
 if(!(Object.getPrototypeOf(r)&&Object.getPrototypeOf(r).p===s.prototype.p))return false
 try{if(typeof navigator!="undefined"&&typeof navigator.userAgent=="string"&&navigator.userAgent.indexOf("Chrome/")>=0)return true
 if(typeof version=="function"&&version.length==0){var q=version()
