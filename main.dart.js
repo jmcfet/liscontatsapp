@@ -24034,7 +24034,7 @@ Ut(){var s=0,r=A.Y(t.nw),q,p=2,o,n,m,l,k,j,i,h
 var $async$Ut=A.Z(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.a_(A.al1(A.fP("http://lmawebservices.net/api/lis/associations")),$async$Ut)
+return A.a_(A.al1(A.fP("https://lisservices.azurewebsites.net/api/lis/associations")),$async$Ut)
 case 7:n=b
 s=n.b===200?8:10
 break
@@ -24073,7 +24073,7 @@ aF0(a){var s=0,r=A.Y(t.nw),q,p=2,o,n,m,l,k,j,i,h
 var $async$Us=A.Z(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.a_(A.al1(A.fP("http://lmawebservices.net/api/lis/getResidentsinAssociation?cat="+a)),$async$Us)
+return A.a_(A.al1(A.fP("https://lisservices.azurewebsites.net/api/lis/getResidentsinAssociation?cat="+a)),$async$Us)
 case 7:n=c
 s=n.b===200?8:10
 break
@@ -24112,7 +24112,7 @@ aF6(a,b){var s=0,r=A.Y(t.nw),q,p=2,o,n,m,l,k,j,i,h
 var $async$Uw=A.Z(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.a_(A.al1(A.fP("http://lmawebservices.net/api/lis/searchPersons?search="+a+"&cat="+b)),$async$Uw)
+return A.a_(A.al1(A.fP("https://lisservices.azurewebsites.net/api/lis/searchPersons?search="+a+"&cat="+b)),$async$Uw)
 case 7:n=d
 s=n!=null?8:10
 break
