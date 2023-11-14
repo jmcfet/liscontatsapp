@@ -24391,7 +24391,7 @@ UY(){var s=0,r=A.Z(t.nw),q,p=2,o,n,m,l,k,j,i,h
 var $async$UY=A.a_(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.a1(A.at6(A.hk("https://lisservices.azurewebsites.net/api/lis/associations")),$async$UY)
+return A.a1(A.at6(A.hk("https://lmawebservices.net/api/lis/associations")),$async$UY)
 case 7:n=b
 s=n.b===200?8:10
 break
@@ -24430,7 +24430,7 @@ aGq(a,b){var s=0,r=A.Z(t.nw),q,p=2,o,n,m,l,k,j,i,h
 var $async$V0=A.a_(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.a1(A.at6(A.hk("https://lisservices.azurewebsites.net/api/lis/searchPersons?search="+a+"&cat="+b)),$async$V0)
+return A.a1(A.at6(A.hk("https://lmawebservices.net/api/lis/searchPersons?search="+a+"&cat="+b)),$async$V0)
 case 7:n=d
 s=n!=null?8:10
 break
@@ -42361,7 +42361,7 @@ s=A.hC(r.tl(s,B.l),2)
 s=A.hT(A.a([s,A.hC(r.tl(a.d,B.l),1)],m),B.am,B.aC,B.aH)
 return A.anU(A.jU(q,new A.ET(B.k,5,new A.cn(o,B.u),new A.au(16,8,16,8),A.da(q,A.pD(A.a([A.hT(A.a([new A.vM(1,B.D1,A.da(q,A.pD(A.a([n,s,r.tl(a.c,B.l)],m),B.hQ,B.aC,B.aH),B.p,q,q,q,q,new A.au(20,0,0,0),q,q),q)],m),B.am,B.aC,B.aH)],m),B.am,B.aC,B.aH),B.p,q,q,q,q,new A.au(10,10,10,10),q,q),q),B.a7,!1,q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,new A.Xv(r,a),q,q,q,q,q,q),B.lz,new A.dv(p,t.kK),q,B.by)},
 afW(){var s=this,r=null,q=A.aqq(r),p=A.ajR(B.l),o=A.cW("Search",r,r,r,A.dh(r,r,r,r,r,r,r,r,r,r,r,16,r,r,B.ca,r,r,!0,r,r,r,r,r,r,r,r),B.h_,r),n=A.cW("leave ALL for all associations or select one to restrict search",r,r,r,A.dh(r,r,r,r,r,r,r,r,r,r,r,16,r,r,B.ca,r,r,!0,r,r,r,r,r,r,r,r),r,r),m=A.ea(r,10,r),l=s.y,k=J.mR(s.x,new A.XG(),t.b7)
-return A.da(r,A.akI(A.a([new A.cR(B.bz,o,r),n,m,new A.lh(A.al(k,!0,A.l(k).i("b9.E")),l,r,r,new A.XH(s),r,r,8,r,r,r,r,24,!1,!1,48,r,r,!1,B.Bp,r,r,r,B.ht,r,r,!1,!1,r,t.Af),A.ea(r,8,r),A.ajU(new A.XI(s),A.cW("last name",r,r,r,r,r,r),s.Q),A.ajU(new A.XJ(s),A.cW("first Name",r,r,r,r,r,r),s.as),A.ajU(new A.XK(s),A.cW("Address",r,r,r,r,r,r),s.at),A.ea(r,8,r),A.aqs(!0,B.cI,!1,r,!0,B.Y,r,A.aHc(),q,r,r,r,r,2,A.lx(r,new A.f0(4,B.bK,B.d9),r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!1,r,r,r,"Filter by",r,r,r,r,r,r,r,r,r,r,r,r,r),B.a7,!0,r,!0,r,!1,r,r,r,r,r,r,r,1,r,r,!1,"\u2022",r,r,r,r,r,r,!1,r,!0,r,B.lG,r,r,B.cx,B.bL,r,r,r,r,r,r,B.b6,r,B.xz,r,r,r,r),new A.cR(B.bz,A.akg(A.cW("GO",r,r,r,r,r,r),new A.XL(s,q)),r),new A.cR(B.bz,A.akg(A.cW("Clear",r,r,r,r,r,r),new A.XM(s)),r)],t.p),new A.au(8,8,8,8),r,!1),B.p,r,r,new A.cM(r,r,p,r,r,r,B.ay),r,r,r,200)},
+return A.da(r,A.akI(A.a([new A.cR(B.bz,o,r),n,m,new A.lh(A.al(k,!0,A.l(k).i("b9.E")),l,r,r,new A.XH(s),r,r,8,r,r,r,r,24,!1,!1,48,r,r,!1,B.Bp,r,r,r,B.ht,r,r,!1,!1,r,t.Af),A.ea(r,8,r),A.ajU(new A.XI(s),A.cW("Last Name",r,r,r,r,r,r),s.Q),A.ajU(new A.XJ(s),A.cW("First Name",r,r,r,r,r,r),s.as),A.ajU(new A.XK(s),A.cW("Address",r,r,r,r,r,r),s.at),A.ea(r,8,r),A.aqs(!0,B.cI,!1,r,!0,B.Y,r,A.aHc(),q,r,r,r,r,2,A.lx(r,new A.f0(4,B.bK,B.d9),r,r,r,r,r,r,!0,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,!1,r,r,r,"Filter by",r,r,r,r,r,r,r,r,r,r,r,r,r),B.a7,!0,r,!0,r,!1,r,r,r,r,r,r,r,1,r,r,!1,"\u2022",r,r,r,r,r,r,!1,r,!0,r,B.lG,r,r,B.cx,B.bL,r,r,r,r,r,r,B.b6,r,B.xz,r,r,r,r),new A.cR(B.bz,A.akg(A.cW("GO",r,r,r,r,r,r),new A.XL(s,q)),r),new A.cR(B.bz,A.akg(A.cW("Clear",r,r,r,r,r,r),new A.XM(s)),r)],t.p),new A.au(8,8,8,8),r,!1),B.p,r,r,new A.cM(r,r,p,r,r,r,B.ay),r,r,r,200)},
 v8(a,b){return this.a5Z(a,b)},
 a5Z(a,b){var s=0,r=A.Z(t.z),q=this,p,o
 var $async$v8=A.a_(function(c,d){if(c===1)return A.W(d,r)
